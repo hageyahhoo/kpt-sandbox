@@ -16,4 +16,4 @@ spec:
     name: https
   selector:
     run: xxx # {"$ref":"#/definitions/io.k8s.cli.setters.name"}
-    version: xxx xxx # {"$ref":"#/definitions/io.k8s.cli.setters.version"}
+    version: xxx # {"$ref":"#/definitions/io.k8s.cli.setters.version"}

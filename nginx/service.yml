@@ -5,7 +5,7 @@ metadata:
   labels:
     run: xxx # {"$ref":"#/definitions/io.k8s.cli.setters.name"}
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - port: 8080
     targetPort: 80
